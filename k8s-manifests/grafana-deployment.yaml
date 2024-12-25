@@ -1,0 +1,98 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-config
+  namespace: default
+data:
+  custom.ini: |
+    [server]
+    http_port = 3000
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana
+  namespace: default
+  labels:
+    app: grafana
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      containers:
+      - name: grafana
+        image: grafana/grafana:latest
+        ports:
+        - containerPort: 3000
+        volumeMounts:
+          - name: grafana-storage
+            mountPath: /var/lib/grafana
+          - name: grafana-config-volume
+            mountPath: /etc/grafana/custom.ini
+            subPath: custom.ini
+          - name: grafana-provisioning
+            mountPath: /etc/grafana/provisioning
+          - name: grafana-dashboards
+            mountPath: /var/lib/grafana/dashboards
+        env:
+        - name: GF_SECURITY_ADMIN_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: grafana-admin-secret
+              key: admin-password
+      volumes:
+      - name: grafana-config-volume
+        configMap:
+          name: grafana-config
+      - name: grafana-storage
+        persistentVolumeClaim:
+          claimName: grafana-pvc
+      - name: grafana-provisioning
+        configMap:
+          name: grafana-provisioning
+      - name: grafana-dashboards
+        configMap:
+          name: grafana-dashboards
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana
+  namespace: default
+spec:
+  type: NodePort
+  ports:
+  - name: grafana-port
+    port: 3000
+    targetPort: 3000
+    nodePort: 32000
+  selector:
+    app: grafana
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grafana-pvc
+  namespace: default
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: grafana-admin-secret
+  namespace: default
+type: Opaque
+data:
+  admin-password: YWRtaW4=

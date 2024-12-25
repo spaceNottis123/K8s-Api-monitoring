@@ -1,0 +1,168 @@
+2024-12-13 00:19:52,935 - INFO - Database initialized
+2024-12-13 00:19:52,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-13 00:19:52,947 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-13 00:19:52,948 - INFO -  * Restarting with stat
+2024-12-13 00:19:53,241 - INFO - Database initialized
+2024-12-13 00:19:53,250 - WARNING -  * Debugger is active!
+2024-12-13 00:19:53,339 - INFO -  * Debugger PIN: 714-918-070
+2024-12-13 00:20:40,097 - INFO - Fetched 0 items from database
+2024-12-13 00:20:40,098 - INFO - 127.0.0.1 - - [13/Dec/2024 00:20:40] "GET /items HTTP/1.1" 200 -
+2024-12-13 00:20:47,828 - INFO - Added new item: Item 1
+2024-12-13 00:20:47,828 - INFO - 127.0.0.1 - - [13/Dec/2024 00:20:47] "[35m[1mPOST /items HTTP/1.1[0m" 201 -
+2024-12-13 00:20:52,163 - INFO - Fetched 1 items from database
+2024-12-13 00:20:52,164 - INFO - 127.0.0.1 - - [13/Dec/2024 00:20:52] "GET /items HTTP/1.1" 200 -
+2024-12-13 00:20:55,594 - INFO - Updated item with ID 1
+2024-12-13 00:20:55,594 - INFO - 127.0.0.1 - - [13/Dec/2024 00:20:55] "PUT /items/1 HTTP/1.1" 200 -
+2024-12-13 00:21:00,956 - INFO - Fetched 1 items from database
+2024-12-13 00:21:00,957 - INFO - 127.0.0.1 - - [13/Dec/2024 00:21:00] "GET /items HTTP/1.1" 200 -
+2024-12-13 00:21:03,994 - INFO - Deleted item with ID 1
+2024-12-13 00:21:03,995 - INFO - 127.0.0.1 - - [13/Dec/2024 00:21:03] "DELETE /items/1 HTTP/1.1" 200 -
+2024-12-13 00:21:06,526 - INFO - Fetched 0 items from database
+2024-12-13 00:21:06,526 - INFO - 127.0.0.1 - - [13/Dec/2024 00:21:06] "GET /items HTTP/1.1" 200 -
+2024-12-16 23:49:10,657 - INFO - Database initialized
+2024-12-16 23:49:10,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-16 23:49:10,670 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 23:49:10,670 - INFO -  * Restarting with stat
+2024-12-16 23:49:10,974 - INFO - Database initialized
+2024-12-16 23:49:10,983 - WARNING -  * Debugger is active!
+2024-12-16 23:49:10,995 - INFO -  * Debugger PIN: 127-854-432
+2024-12-16 23:49:24,442 - INFO - 127.0.0.1 - - [16/Dec/2024 23:49:24] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-16 23:49:55,144 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-16 23:49:55,239 - INFO -  * Restarting with stat
+2024-12-16 23:49:55,724 - INFO - Database initialized
+2024-12-16 23:49:55,741 - WARNING -  * Debugger is active!
+2024-12-16 23:49:55,744 - INFO -  * Debugger PIN: 127-854-432
+2024-12-16 23:49:57,221 - INFO - Database initialized
+2024-12-16 23:49:57,231 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-16 23:49:57,231 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 23:49:57,232 - INFO -  * Restarting with stat
+2024-12-16 23:49:57,667 - INFO - Database initialized
+2024-12-16 23:49:57,681 - WARNING -  * Debugger is active!
+2024-12-16 23:49:57,685 - INFO -  * Debugger PIN: 127-854-432
+2024-12-16 23:50:03,950 - INFO - 127.0.0.1 - - [16/Dec/2024 23:50:03] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-16 23:50:12,576 - INFO - 127.0.0.1 - - [16/Dec/2024 23:50:12] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-16 23:50:13,065 - INFO - 127.0.0.1 - - [16/Dec/2024 23:50:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 01:02:43,953 - INFO - Database initialized
+2024-12-17 01:02:52,066 - INFO - Database initialized
+2024-12-17 01:02:52,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-17 01:02:52,077 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 01:02:52,077 - INFO -  * Restarting with stat
+2024-12-17 01:02:52,400 - INFO - Database initialized
+2024-12-17 01:02:52,409 - WARNING -  * Debugger is active!
+2024-12-17 01:02:52,413 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:03:03,793 - INFO - 127.0.0.1 - - [17/Dec/2024 01:03:03] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-17 01:03:10,595 - INFO - 127.0.0.1 - - [17/Dec/2024 01:03:10] "[33mGET / HTTP/1.1[0m" 404 -
+2024-12-17 01:03:16,903 - INFO - 127.0.0.1 - - [17/Dec/2024 01:03:16] "GET /health HTTP/1.1" 200 -
+2024-12-17 01:03:22,575 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-17 01:03:22,642 - INFO -  * Restarting with stat
+2024-12-17 01:03:22,988 - INFO - Database initialized
+2024-12-17 01:03:22,997 - WARNING -  * Debugger is active!
+2024-12-17 01:03:22,999 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:03:38,068 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-17 01:03:38,136 - INFO -  * Restarting with stat
+2024-12-17 01:03:38,542 - INFO - Database initialized
+2024-12-17 01:03:38,550 - WARNING -  * Debugger is active!
+2024-12-17 01:03:38,551 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:03:47,352 - INFO - Database initialized
+2024-12-17 01:03:47,361 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-17 01:03:47,361 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 01:03:47,362 - INFO -  * Restarting with stat
+2024-12-17 01:03:47,651 - INFO - Database initialized
+2024-12-17 01:03:47,659 - WARNING -  * Debugger is active!
+2024-12-17 01:03:47,661 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:03:53,823 - INFO - 127.0.0.1 - - [17/Dec/2024 01:03:53] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-17 01:04:51,874 - INFO - 127.0.0.1 - - [17/Dec/2024 01:04:51] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-17 01:05:04,067 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-17 01:05:04,144 - INFO -  * Restarting with stat
+2024-12-17 01:05:04,439 - INFO - Database initialized
+2024-12-17 01:05:04,447 - WARNING -  * Debugger is active!
+2024-12-17 01:05:04,449 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:05:25,568 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-17 01:05:25,644 - INFO -  * Restarting with stat
+2024-12-17 01:05:25,940 - INFO - Database initialized
+2024-12-17 01:05:25,948 - WARNING -  * Debugger is active!
+2024-12-17 01:05:25,950 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:05:29,407 - INFO - Database initialized
+2024-12-17 01:05:29,416 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-17 01:05:29,416 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 01:05:29,417 - INFO -  * Restarting with stat
+2024-12-17 01:05:29,712 - INFO - Database initialized
+2024-12-17 01:05:29,720 - WARNING -  * Debugger is active!
+2024-12-17 01:05:29,721 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:05:36,317 - INFO - 127.0.0.1 - - [17/Dec/2024 01:05:36] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2024-12-17 01:07:48,386 - INFO -  * Detected change in '/home/enzo/Documents/Oppervision/portifolio/ProjectK8/crudAPI/main.py', reloading
+2024-12-17 01:07:48,454 - INFO -  * Restarting with stat
+2024-12-17 01:09:18,253 - INFO - Fetched 0 items from database
+2024-12-17 01:09:22,523 - INFO - Added new item: Item 1
+2024-12-17 01:09:25,163 - INFO - Added new item: Item 1
+2024-12-17 01:09:27,224 - INFO - Fetched 2 items from database
+2024-12-17 01:09:28,022 - INFO - Fetched 2 items from database
+2024-12-17 01:15:10,688 - INFO - Fetched 2 items
+2024-12-17 01:15:12,284 - INFO - Fetched 2 items
+2024-12-17 01:15:13,616 - INFO - Fetched 2 items
+2024-12-17 01:15:15,097 - INFO - Fetched 2 items
+2024-12-17 01:16:17,145 - INFO - Added new item: Item 1
+2024-12-17 01:16:17,720 - INFO - Added new item: Item 1
+2024-12-17 01:16:25,485 - INFO - Updated item ID 1
+2024-12-17 01:16:25,833 - INFO - Updated item ID 1
+2024-12-17 01:16:26,350 - INFO - Updated item ID 1
+2024-12-17 01:16:26,918 - INFO - Updated item ID 1
+2024-12-17 01:16:27,537 - INFO - Updated item ID 1
+2024-12-17 01:16:30,311 - INFO - Deleted item ID 1
+2024-12-17 01:16:34,367 - INFO - Deleted item ID 2
+2024-12-17 01:16:36,848 - INFO - Fetched 2 items
+2024-12-17 01:16:43,185 - INFO - Deleted item ID 3
+2024-12-17 01:16:45,919 - INFO - Deleted item ID 4
+2024-12-17 01:18:25,544 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:20:19,684 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:20:42,678 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:21:12,047 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:21:54,216 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:22:53,588 - INFO - Database initialized
+2024-12-17 01:22:53,597 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.105:5000
+2024-12-17 01:22:53,598 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 01:22:53,598 - INFO -  * Restarting with stat
+2024-12-17 01:22:53,911 - INFO - Database initialized
+2024-12-17 01:22:53,923 - WARNING -  * Debugger is active!
+2024-12-17 01:22:53,926 - INFO -  * Debugger PIN: 127-854-432
+2024-12-17 01:23:01,125 - INFO - Added new item: Item 1
+2024-12-17 01:23:01,126 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:01] "[35m[1mPOST /items HTTP/1.1[0m" 201 -
+2024-12-17 01:23:02,852 - INFO - Fetched 1 items
+2024-12-17 01:23:02,852 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:02] "GET /items HTTP/1.1" 200 -
+2024-12-17 01:23:04,775 - INFO - Updated item ID 1
+2024-12-17 01:23:04,775 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:04] "PUT /items/1 HTTP/1.1" 200 -
+2024-12-17 01:23:08,268 - ERROR - Generated Error 404: Resource Not Found
+2024-12-17 01:23:08,269 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:08] "[33mGET /error/404 HTTP/1.1[0m" 404 -
+2024-12-17 01:23:10,150 - ERROR - Generated Error 500: Internal Server Error
+2024-12-17 01:23:10,151 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:10] "[35m[1mGET /error/500 HTTP/1.1[0m" 500 -
+2024-12-17 01:23:12,485 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:23:12,485 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:12] "[35m[1mGET /crash HTTP/1.1[0m" 500 -
+2024-12-17 01:23:14,668 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:23:14,669 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:14] "[35m[1mGET /timeout HTTP/1.1[0m" 500 -
+2024-12-17 01:23:16,674 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:23:16,674 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:16] "[35m[1mPOST /items/validate HTTP/1.1[0m" 500 -
+2024-12-17 01:23:18,627 - ERROR - Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-17 01:23:18,628 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:18] "[35m[1mGET /timeout HTTP/1.1[0m" 500 -
+2024-12-17 01:23:41,623 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:41] "GET /health HTTP/1.1" 200 -
+2024-12-17 01:23:43,382 - INFO - 127.0.0.1 - - [17/Dec/2024 01:23:43] "GET /metrics HTTP/1.1" 200 -
